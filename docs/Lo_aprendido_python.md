@@ -34,3 +34,37 @@ Ejemplo:
 message = "soy aprendiz de charly" 
 print(message)
 ```
+## Concantenacion de strings 
+Sirve para unir dos o mas strings.
+Se puede realizar utilizando el operador `+`
+
+Ejemplo:
+```python
+first_name = "crixs"
+last_name = "Eduardo"
+full_name = first_name + " " + last_name 
+print(full_name)
+```
+---
+## Whitespace
+Son los espacios o caracteres utilizados para organizar el texto.
+
+Por ejemplo: \t agregar una tabulacion y \n realiza un salto de linea 
+```python 
+print("Hola\tcrixs")
+print("Hola\ncrixs")
+\t- tabulacion
+\n- salto de linea 
+```
+## F-strings
+Son los que me permiten insertar variables directamente dentro de un string. Para usarlo se pone una `f` antes de las comillas y variables se escriben en {}.
+
+Por ejemplo:
+```python 
+name = "Cristian"
+age = 18
+
+message = f"Mi nombre es {name} y tengo {age} años."
+print(message)
+```
+
