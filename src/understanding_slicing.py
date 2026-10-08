@@ -36,4 +36,41 @@ for student in students[3:5]:
 print(students)
 
 # ¿ cmo copiar una lista ?
-my_food = ["pizza"]
+my_food = ["pizza","tacos","flautas"]
+
+
+"""
+ TUPLAS
+  Las tuplas son listas de elemntos que no cambian de tamaños. 
+  Las tuplas son listas inmutables
+
+
+  Se utilizan los () para definir una tupla.
+
+  ejemplo:
+
+  si tenemos un rectangulo (largo, ancho) que va 
+  a tener cierto tamaño, podemos asegurar que sus dimenciones 
+  no va a cambiar si colocamos sus valores en una tupla.
+
+"""
+dimensions = (200, 50) # 200 de largo x 50 de ancho
+print("tupla original:",dimensions)
+
+ # vamos a imprimir elementos de una tupla 
+ # se realiza de la misma forma que una lista 
+
+print(dimensions[0])
+print(dimensions[1])
+
+# Vamos a modificar el valor dde una lista
+names = ["charly","yemi","juana","cris"]
+print(names)
+
+dimensions = (500,1000,20)
+print("tupla re-definida:",dimensions)
+
+# datos booleanos 
+answer = True
+print(answer)
+print(dir(answer))
