@@ -13,7 +13,7 @@ try:
     wheigh_txt = float(wheigh_txt)
     heigh_txt = float(heigh_txt)
     imc = wheigh / (heigh ** 2)
-    print(f"Tu indice de masa corporal es {ims}")
+    print(f"Tu indice de masa corporal es {imc}")
 except TypeError:
     print("Datos no validos. Ej peso 70.5, altura 1.75")
 except ZeroDivisionError:
